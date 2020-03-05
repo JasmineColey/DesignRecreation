@@ -1,1 +1,115 @@
 
+
+body {
+  background-image: url("https://i.pinimg.com/originals/4b/b8/12/4bb8121036733120540446d3768269c1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
+h1 {display: flex;
+  flex-wrap: nowrap;
+  letter-spacing: 7px;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding: 15px;
+  width: 500px;
+  text-align: left;
+  padding-left: 10px;
+  color: #eee
+
+
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  list-style: none;
+  margin: 500;
+  padding: 500;
+  position: absolute;
+  bottom: 155px;
+  padding: 5px;
+  width: 500px;
+  color: #C1E6EC;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  padding-left: 5px
+
+}
+p{  color: #C1E6EC;
+font-size: 5px;
+text-align: center;
+line-height: 0px;
+}
+
+.actors img{width: 8vh;
+padding: 10px;
+padding-left: 0px;
+padding-bottom: 0px;
+height: 80px;
+
+
+}
+
+
+.movieintro {display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+list-style: none;
+margin: 500;
+padding: 400;
+position: absolute;
+bottom: 0px;
+text-align:center;
+padding: 5px;
+width: 500px;
+color: #eee;
+font-family: 'Montserrat', sans-serif;
+font-weight: lighter;
+}
+
+h2{font-size: 10px;
+  letter-spacing:5px;
+  color: #eee
+}
+
+.movietitle {font-size: 50px;
+}
+a{
+font-family: 'Montserrat', sans-serif;
+letter-spacing:5px;
+color: #C1E6EC;
+text-decoration: none;
+font-weight:lighter;
+
+}
+  span{
+    font-weight:bold;
+    color: #eee
+
+
+  }
+.credits {display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 0px;
+  font-family: "Tulpen One",sans-serif;
+  color: #00CCFF;
+  font-size:10%
+
+}
+
+.credits sub {
+  font-size: 5px;
+
+  }
+
+.credits q { font-size: 5px;
+
+
+}
